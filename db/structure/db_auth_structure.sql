@@ -7,7 +7,7 @@ CREATE TABLE users (
 );
 
 CREATE TABLE password_credentials (
-    user_id INTEGER REFERENCES users(id),
+    user_id INTEGER REFERENCES users(id) PRIMARY KEY,
     password_hash TEXT NOT NULL,
     updated_at TIMESTAMP DEFAULT current_timestamp
 );

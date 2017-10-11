@@ -9,6 +9,9 @@ gunicorn = "*"
 flask = "*"
 sqlalchemy = "*"
 "psycopg2" = "*"
+scrypt = "*"
+jsonschema = "*"
+simplejson = "*"
 
 
 [dev-packages]
